@@ -1,14 +1,14 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
-  <groupId>com.bogotobogo</groupId>
-  <artifactId>bogotobogo_JenkinsOnEC2</artifactId>
+  <groupId>com.ashwati</groupId>
+  <artifactId>dummyproj</artifactId>
   <packaging>jar</packaging>
   <version>212.0-SNAPSHOT</version>
 
   <properties>
-    <maven.compiler.source>7</maven.compiler.source>
-    <maven.compiler.target>7</maven.compiler.target>
+    <maven.compiler.source>11</maven.compiler.source>
+    <maven.compiler.target>11</maven.compiler.target>
   </properties>
 
   <dependencies>
@@ -43,7 +43,7 @@
     </plugin>
   </plugins>
  </build>
-  
+<!--
   <distributionManagement>
 	<repository>
 		<id>deployment</id>
@@ -57,6 +57,6 @@
 		<url>http://35.154.238.151:8081/repository/maven-snapshots/</url>
 	</snapshotRepository>
 
-</distributionManagement>
+</distributionManagement>-->
   
 </project>
