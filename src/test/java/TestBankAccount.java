@@ -1,4 +1,4 @@
-package com.bogotobogo;
+package com.ashwati;
 
 import junit.framework.Assert;
 import org.junit.Before;
